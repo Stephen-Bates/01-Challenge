@@ -7,7 +7,14 @@
 body {
     background-color: #d9dcd6;
 }
+/*
+For the purpose of clarity, many div elements
+where changed to more meaningful semantic elements
+and their classes were removed.
+Certain selectors have changed to reflect this.
+*/
 
+/*The .header class has been changed to a header element*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -19,12 +26,13 @@ header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/*The .seo class has been changed to a mark element*/
 header h1 mark {
     color: #d9dcd6;
     background-color: inherit;
 }
 
+/*The .header div is now a nav element in the header element*/
 header nav{
     padding-top: 15px;
     margin-right: 20px;
@@ -47,10 +55,12 @@ a {
     text-decoration: none;
 }
 
+/*The p elements are now article elements*/
 article {
     font-size: 16px;
 }
 
+/*The .hero div has been changed to an image element. It retains the .hero class*/
 .hero {
     width: 100%;
     margin-bottom: 25px;
@@ -68,6 +78,7 @@ article {
     margin-left: 25px;
 }
 
+/*The .content class has been chagned to a main element*/
 main {
     width: 75%;
     display: inline-block;
@@ -85,55 +96,27 @@ main {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/*
+Several redundant styles were consolidated and condensed.
+Subsequent unused classes remain in case of future changes utilize them
+*/
+.benefits section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+main section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -142,47 +125,11 @@ main {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+main section img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+main section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
