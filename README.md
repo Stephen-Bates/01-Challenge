@@ -16,7 +16,7 @@ The web page can currently be found hosted [here](https://stephen-bates.github.i
 
 The web page produced by this project should resemble the image below:
 
-[A mock up of the desired page result](./Challenge-Assets/01-html-css-git-homework-demo.png)
+![A mock up of the desired page result](./Challenge-Assets/01-html-css-git-homework-demo.png)
 
 The original HTML and CSS files can be found in the Develop directory for direct comparison.
 
