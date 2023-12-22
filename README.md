@@ -22,7 +22,7 @@ The original HTML and CSS files can be found in the Develop directory for direct
 
 ## Credits
 
-N/A
+Original HTML and CSS files provided by edX Boot Camps LLC
 
 ## Liscense
 
