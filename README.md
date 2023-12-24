@@ -4,7 +4,7 @@
 
 This project is an example of a basic static website that has been updated to utilizes semantic HTML tags for the purpose of maintaining accesibility standards. It has also had alternate properties added for images, and navigation links have been updated to properly function.
 
-The stylesheet has also been update to account for these changes in a way that preserves the look of previous style.
+The stylesheet has also been update to account for these changes in a way that preserves the look of it's previous style.
 
 ## Installation
 
